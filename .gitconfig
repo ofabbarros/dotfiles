@@ -4,3 +4,5 @@
 	name = fabbar
 [core]
 	editor = nano
+[init]
+	defaultBranch = main
