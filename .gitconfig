@@ -1,0 +1,6 @@
+# This is Git's per-user configuration file.
+[user]
+	email = 63207264+ofabbarros@users.noreply.github.com
+	name = fabbar
+[core]
+	editor = nano
