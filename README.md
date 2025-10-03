@@ -1,20 +1,83 @@
 # dotfiles
 This repository contains my personal configuration files and scripts for optimizing my environment. Includes settings for Bash, ZSH, and more. Easily back up, synchronize, and customize your environment.
 
-## Usage
+## Install Homebrew
+Open up a terminal window and install homebrew with the following command:
 
-You Need to have Git, Stow and Zsh installed on your system.
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
-if you have zoxide installed, you can uncomment the zoxide line in the .zshrc file.
+## Add Homebrew To Path
+After installing, add it to the path (replace ”[username]” with your actual username):
 
-and if you have tmuxifier installed, you can uncomment the tmuxifier line in the .zshrc file.
+```bash
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/[username]/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
 
-## Installation
+## Install Git
+If you don’t have it installed, install git as well:
 
+```bash
+brew install git
+```
+
+## Install Oh My Zsh
+Run this to install Oh My Zsh:
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+## Install ZSH Plugins
+Install zsh-autosuggestions:
+
+```bash
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+
+Install zsh-syntax-highlighting:
+
+```bash
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+Load these new plugins by running:
+
+```bash
+source ~/.zshrc
+```
+
+## Install PowerLevel10K Theme for Oh My Zsh
+Run this to install PowerLevel10K:
+
+```bash
+git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+```
+
+## Install JetBrainsMono Nerd Font
+Install the font using homebrew:
+
+```bash
+brew install --cask font-jetbrains-mono-nerd-font
+```
+
+## Install Dracula Theme for VSCode, Terminal and SublimeText
+Access using instructions available in https://draculatheme.com/terminal-app
+
+## Install Stow
+If you don’t have it installed, install stow as well:
+
+```bash
+brew install stow
+```
+
+## Usage of Stow and Dotfiles
 To use this repository, simply clone it to your local machine. 
 
 ```bash
-git clone https://github.com/codeopshq/dotfiles.git
+git clone https://github.com/ofabbarros/dotfiles.git
 ```
 
 Once cloned, navigate to the desired directory.
