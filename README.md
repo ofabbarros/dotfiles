@@ -66,6 +66,9 @@ brew install --cask font-jetbrains-mono-nerd-font
 ## Install Dracula Theme for VSCode, Terminal and SublimeText
 Access using instructions available in https://draculatheme.com/terminal-app
 
+## Install Amazon Q Developer
+Install Amazon Q Developer and enable CLI integration
+
 ## Install Stow
 If you don’t have it installed, install stow as well:
 
