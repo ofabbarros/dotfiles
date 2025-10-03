@@ -93,3 +93,7 @@ stow .
 ```
 
 You are now ready to use the dotfiles in your environment.
+
+## References
+[How To Easily Manage Your Dotfiles With GNU Stow](https://www.josean.com/posts/how-to-manage-dotfiles-with-gnu-stow)
+[How To Setup Your Mac Terminal](https://www.josean.com/posts/terminal-setup)
