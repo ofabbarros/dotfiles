@@ -49,11 +49,11 @@ Load these new plugins by running:
 source ~/.zshrc
 ```
 
-## Install PowerLevel10K Theme for Oh My Zsh
-Run this to install PowerLevel10K:
+## Install Kiro
+Run this to install Kiro:
 
 ```bash
-git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+brew install kiro-cli
 ```
 
 ## Install JetBrainsMono Nerd Font
@@ -63,11 +63,8 @@ Install the font using homebrew:
 brew install --cask font-jetbrains-mono-nerd-font
 ```
 
-## Install Dracula Theme for VSCode, Terminal and SublimeText
-Access using instructions available in https://draculatheme.com/terminal-app
-
-## Install Amazon Q Developer
-Install Amazon Q Developer and enable CLI integration
+## Configure Terminal
+Configure Terminal to use Clear Dark Theme, font Jet Brains Nerd and size 18
 
 ## Install Stow
 If you don’t have it installed, install stow as well:
